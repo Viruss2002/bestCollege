@@ -15,7 +15,7 @@ namespace Labo01
 {
     internal class ClLogin
     {
-        MySqlConnection cns = new MySqlConnection("server=localhost;uid=root;pwd=root;database=clogindb");
+        MySqlConnection cns = new MySqlConnection("server=localhost;uid=root;pwd=ROOT;database=clogindb");
         public void Ajouter(string NomComplet, string Username, string Password, string DateNaissance, string Sexe, string Mobile, string Niveau, string Specialite, string Groupe)
         {
             try

@@ -11,7 +11,7 @@ namespace Labo01
 {
     internal class ClSpecialite
     {
-        MySqlConnection cns = new MySqlConnection("server=localhost;uid=root;pwd=root;database=clogindb");
+        MySqlConnection cns = new MySqlConnection("server=localhost;uid=root;pwd=ROOT;database=clogindb");
 
         public void Ajouter(string Code, string Name)
         {
